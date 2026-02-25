@@ -12,6 +12,7 @@ data/processed/
 *.pt
 *.pth
 *.onnx
+*.safetensors
 logs/
 *.log
 .aws/
