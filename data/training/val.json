@@ -1,0 +1,5506 @@
+[
+  {
+    "column_name": "invoice_date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "invoice",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "date_of_purchase",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "date",
+      "of",
+      "purchase"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE"
+    ]
+  },
+  {
+    "column_name": "product_id",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "qty",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "qty"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "item_type",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "item",
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "prod_no",
+    "sample_value": "PROD_99",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "prod",
+      "no"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "customer_code",
+    "sample_value": "CLI_9988",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "customer_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "customer",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "mobile_number",
+    "sample_value": "9876543210",
+    "label": "PHONE",
+    "tokens": [
+      "mobile",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "quantity_sold",
+    "sample_value": "75",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "quantity_sold",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "cust_code",
+    "sample_value": "CUST-1234",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "zip",
+    "sample_value": "US",
+    "label": "LOCATION",
+    "tokens": [
+      "zip"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "e_mail",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "e",
+      "mail"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "segment",
+    "sample_value": "Group 1",
+    "label": "CATEGORY",
+    "tokens": [
+      "segment"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "sku",
+    "sample_value": "ITM-001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "sku"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "article_id",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "article",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "number_of_units",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "number",
+      "of",
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "order_date",
+    "sample_value": "2023/01/15",
+    "label": "DATE",
+    "tokens": [
+      "order",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "is_active",
+    "sample_value": "pending",
+    "label": "STATUS",
+    "tokens": [
+      "is",
+      "active"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "client_email",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "client",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "amount",
+    "sample_value": "3200.75",
+    "label": "REVENUE",
+    "tokens": [
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "invoice_date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "invoice",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "zip",
+    "sample_value": "North Region",
+    "label": "LOCATION",
+    "tokens": [
+      "zip"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "segment",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "segment"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "phase",
+    "sample_value": "1",
+    "label": "STATUS",
+    "tokens": [
+      "phase"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "cust_code",
+    "sample_value": "CUST-1234",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "item_number",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "item",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "correspondence_email",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "correspondence",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "quantity_sold",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "warehouse",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "warehouse"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "market",
+    "sample_value": "New York",
+    "label": "LOCATION",
+    "tokens": [
+      "market"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "email_id",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "id"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "price",
+    "sample_value": "99.5",
+    "label": "REVENUE",
+    "tokens": [
+      "price"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "sales_amount",
+    "sample_value": "10000",
+    "label": "REVENUE",
+    "tokens": [
+      "sales",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "city",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "city"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "e_mail",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "e",
+      "mail"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "user_email",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "user",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "product_code",
+    "sample_value": "ITM-001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "customer_id",
+    "sample_value": "C001",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "user_email",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "user",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "record_date",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "record",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "flag",
+    "sample_value": "pending",
+    "label": "STATUS",
+    "tokens": [
+      "flag"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "quantity_sold",
+    "sample_value": "1",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "agent_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "agent",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "client_id",
+    "sample_value": "C001",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "client",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "cust_no",
+    "sample_value": "CLI_9988",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "no"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "amount",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "account_status",
+    "sample_value": "1",
+    "label": "STATUS",
+    "tokens": [
+      "account",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "prod_code",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "prod",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "transaction_amount",
+    "sample_value": "10000",
+    "label": "REVENUE",
+    "tokens": [
+      "transaction",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "first_name",
+    "sample_value": "Jane Doe",
+    "label": "NAME",
+    "tokens": [
+      "first",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "fax",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "fax"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "product_type",
+    "sample_value": "Type A",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "phone",
+    "sample_value": "9876543210",
+    "label": "PHONE",
+    "tokens": [
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "telephone",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "telephone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "warehouse",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "warehouse"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "order_qty",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "order",
+      "qty"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "cell",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "cell"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "product_type",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "order_qty",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "order",
+      "qty"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "state",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "state"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "country",
+    "sample_value": "US",
+    "label": "LOCATION",
+    "tokens": [
+      "country"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "volume",
+    "sample_value": "1",
+    "label": "QUANTITY",
+    "tokens": [
+      "volume"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "customer_id",
+    "sample_value": "10045",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "date",
+    "sample_value": "2023-01-15",
+    "label": "DATE",
+    "tokens": [
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE"
+    ]
+  },
+  {
+    "column_name": "customer_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "customer",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "status",
+    "sample_value": "pending",
+    "label": "STATUS",
+    "tokens": [
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "condition",
+    "sample_value": "pending",
+    "label": "STATUS",
+    "tokens": [
+      "condition"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "stock_id",
+    "sample_value": "ITM-001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "stock",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "tel",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "tel"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "category",
+    "sample_value": "Group 1",
+    "label": "CATEGORY",
+    "tokens": [
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "delivery_date",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "delivery",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "transaction_amount",
+    "sample_value": "99.5",
+    "label": "REVENUE",
+    "tokens": [
+      "transaction",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "qty_sold",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "qty",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "cust_ref",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "ref"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "transaction_amount",
+    "sample_value": "99.5",
+    "label": "REVENUE",
+    "tokens": [
+      "transaction",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "location",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "location"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "user_email",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "user",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "condition",
+    "sample_value": "closed",
+    "label": "STATUS",
+    "tokens": [
+      "condition"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "is_active",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "is",
+      "active"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "prod_no",
+    "sample_value": "SKU-4521",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "prod",
+      "no"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "product_group",
+    "sample_value": "Type A",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "group"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "rep_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "rep",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "units_sold",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "units",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "customer_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "customer",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "cell",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "cell"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "condition",
+    "sample_value": "inactive",
+    "label": "STATUS",
+    "tokens": [
+      "condition"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "product_number",
+    "sample_value": "PROD_99",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "customer_code",
+    "sample_value": "CLI_9988",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "updated_at",
+    "sample_value": "2023-01-15",
+    "label": "DATE",
+    "tokens": [
+      "updated",
+      "at"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "state",
+    "sample_value": "pending",
+    "label": "STATUS",
+    "tokens": [
+      "state"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "customer_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "customer",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "active",
+    "sample_value": "closed",
+    "label": "STATUS",
+    "tokens": [
+      "active"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "quantity_sold",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "item_category",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "item",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "quantity",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "zone",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "zone"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "sales_rep",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "sales",
+      "rep"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "units",
+    "sample_value": "75",
+    "label": "QUANTITY",
+    "tokens": [
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "zone",
+    "sample_value": "New York",
+    "label": "LOCATION",
+    "tokens": [
+      "zone"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "amount",
+    "sample_value": "99.5",
+    "label": "REVENUE",
+    "tokens": [
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "rep_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "rep",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "telephone",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "telephone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "client_id",
+    "sample_value": "10045",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "client",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "mobile",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "mobile"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "record_date",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "record",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "full_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "full",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "item_category",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "item",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "phase",
+    "sample_value": "closed",
+    "label": "STATUS",
+    "tokens": [
+      "phase"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "store_location",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "store",
+      "location"
+    ],
+    "ner_tags": [
+      "B-LOCATION",
+      "I-LOCATION"
+    ]
+  },
+  {
+    "column_name": "product_group",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "group"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "address",
+    "sample_value": "New York",
+    "label": "LOCATION",
+    "tokens": [
+      "address"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "updated_at",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "updated",
+      "at"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "item_category",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "item",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE"
+    ]
+  },
+  {
+    "column_name": "transaction_amount",
+    "sample_value": "250.99",
+    "label": "REVENUE",
+    "tokens": [
+      "transaction",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "area",
+    "sample_value": "New York",
+    "label": "LOCATION",
+    "tokens": [
+      "area"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "earnings",
+    "sample_value": "3200.75",
+    "label": "REVENUE",
+    "tokens": [
+      "earnings"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "mail",
+    "sample_value": "user@domain.org",
+    "label": "EMAIL",
+    "tokens": [
+      "mail"
+    ],
+    "ner_tags": [
+      "B-EMAIL"
+    ]
+  },
+  {
+    "column_name": "location",
+    "sample_value": "North Region",
+    "label": "LOCATION",
+    "tokens": [
+      "location"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "item_code",
+    "sample_value": "SKU-4521",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "item",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "amount",
+    "sample_value": "75",
+    "label": "QUANTITY",
+    "tokens": [
+      "amount"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "account_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "account",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "stock_id",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "stock",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "account_name",
+    "sample_value": "Jane Doe",
+    "label": "NAME",
+    "tokens": [
+      "account",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "cust_ref",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "ref"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "client_code",
+    "sample_value": "C001",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "client",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "market",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "market"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "product_code",
+    "sample_value": "PROD_99",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "flag",
+    "sample_value": "1",
+    "label": "STATUS",
+    "tokens": [
+      "flag"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "warehouse",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "warehouse"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "zone",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "zone"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "country",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "country"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "cust_ref",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "ref"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "area",
+    "sample_value": "New York",
+    "label": "LOCATION",
+    "tokens": [
+      "area"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "category",
+    "sample_value": "Electronics",
+    "label": "CATEGORY",
+    "tokens": [
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "updated_at",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "updated",
+      "at"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "price",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "price"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "product_group",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "group"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "pieces",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "pieces"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "volume",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "volume"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "item_number",
+    "sample_value": "ITM-001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "item",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "date",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE"
+    ]
+  },
+  {
+    "column_name": "clientid",
+    "sample_value": "CUST-1234",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "clientid"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "order_status",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "order",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "territory",
+    "sample_value": "New York",
+    "label": "LOCATION",
+    "tokens": [
+      "territory"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "purchase_date",
+    "sample_value": "2023-01-15",
+    "label": "DATE",
+    "tokens": [
+      "purchase",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "e_mail",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "e",
+      "mail"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "category",
+    "sample_value": "Group 1",
+    "label": "CATEGORY",
+    "tokens": [
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "contact_phone",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "units",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "fax",
+    "sample_value": "9876543210",
+    "label": "PHONE",
+    "tokens": [
+      "fax"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "state",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "state"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "e_mail",
+    "sample_value": "user@domain.org",
+    "label": "EMAIL",
+    "tokens": [
+      "e",
+      "mail"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "contact_phone",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "created_at",
+    "sample_value": "2023-01-15",
+    "label": "DATE",
+    "tokens": [
+      "created",
+      "at"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "product_code",
+    "sample_value": "ITM-001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "net_sales",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "net",
+      "sales"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "customer_status",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "customer",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "city",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "city"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "type",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "contact_phone",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "created_at",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "created",
+      "at"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "number_of_units",
+    "sample_value": "1",
+    "label": "QUANTITY",
+    "tokens": [
+      "number",
+      "of",
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "cust_code",
+    "sample_value": "CLI_9988",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "tel",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "tel"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "district",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "district"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "is_active",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "is",
+      "active"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "order_dt",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "order",
+      "dt"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "customer_id",
+    "sample_value": "10045",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "correspondence_email",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "correspondence",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "division",
+    "sample_value": "Electronics",
+    "label": "CATEGORY",
+    "tokens": [
+      "division"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "total",
+    "sample_value": "3200.75",
+    "label": "REVENUE",
+    "tokens": [
+      "total"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "product_code",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "product_number",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "qty",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "qty"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "phone_number",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "phone",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "phone",
+    "sample_value": "9876543210",
+    "label": "PHONE",
+    "tokens": [
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "client_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "client",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "count",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "count"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "customer_email",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "customer",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "acct_id",
+    "sample_value": "CUST-1234",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "acct",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "stock_quantity",
+    "sample_value": "75",
+    "label": "QUANTITY",
+    "tokens": [
+      "stock",
+      "quantity"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "product_category",
+    "sample_value": "Type A",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "mobile_number",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "mobile",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "state",
+    "sample_value": "pending",
+    "label": "STATUS",
+    "tokens": [
+      "state"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "product_category",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "client_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "client",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "first_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "first",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "email",
+    "sample_value": "user@domain.org",
+    "label": "EMAIL",
+    "tokens": [
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL"
+    ]
+  },
+  {
+    "column_name": "quantity",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "order_date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "order",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "product_type",
+    "sample_value": "Type A",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "client_code",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "client",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "record_date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "record",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "invoice_date",
+    "sample_value": "2023/01/15",
+    "label": "DATE",
+    "tokens": [
+      "invoice",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "catalog_id",
+    "sample_value": "SKU-4521",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "catalog",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "territory",
+    "sample_value": "New York",
+    "label": "LOCATION",
+    "tokens": [
+      "territory"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "trans_date",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "trans",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "qty_sold",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "qty",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "classification",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "classification"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "account_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "account",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "telephone",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "telephone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "correspondence_email",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "correspondence",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "item_code",
+    "sample_value": "ART-5523",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "item",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "mobile_number",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "mobile",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "price",
+    "sample_value": "99.5",
+    "label": "REVENUE",
+    "tokens": [
+      "price"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "transaction_amount",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "transaction",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "email",
+    "sample_value": "user@domain.org",
+    "label": "EMAIL",
+    "tokens": [
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL"
+    ]
+  },
+  {
+    "column_name": "sales_amount",
+    "sample_value": "250.99",
+    "label": "REVENUE",
+    "tokens": [
+      "sales",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "mobile_number",
+    "sample_value": "9876543210",
+    "label": "PHONE",
+    "tokens": [
+      "mobile",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "account_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "account",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "sales_amount",
+    "sample_value": "250.99",
+    "label": "REVENUE",
+    "tokens": [
+      "sales",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "product_category",
+    "sample_value": "Electronics",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "last_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "last",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "prod_code",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "prod",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "product_category",
+    "sample_value": "Electronics",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "email_address",
+    "sample_value": "user@domain.org",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "address"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "group",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "group"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "zip",
+    "sample_value": "North Region",
+    "label": "LOCATION",
+    "tokens": [
+      "zip"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "num_items",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "num",
+      "items"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "class",
+    "sample_value": "Type A",
+    "label": "CATEGORY",
+    "tokens": [
+      "class"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "value",
+    "sample_value": "250.99",
+    "label": "REVENUE",
+    "tokens": [
+      "value"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "price",
+    "sample_value": "10000",
+    "label": "REVENUE",
+    "tokens": [
+      "price"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "order_dt",
+    "sample_value": "2023/01/15",
+    "label": "DATE",
+    "tokens": [
+      "order",
+      "dt"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "territory",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "territory"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "order_value",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "order",
+      "value"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "product_category",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "item_code",
+    "sample_value": "ART-5523",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "item",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "customer_ref",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "ref"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "full_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "full",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "department",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "department"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "location",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "location"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "territory",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "territory"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "cell",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "cell"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "type",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "e_mail",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "e",
+      "mail"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "mobile_number",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "mobile",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "customer_number",
+    "sample_value": "C001",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "number"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "is_active",
+    "sample_value": "true",
+    "label": "STATUS",
+    "tokens": [
+      "is",
+      "active"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "contact_name",
+    "sample_value": "Jane Doe",
+    "label": "NAME",
+    "tokens": [
+      "contact",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "number_of_units",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "number",
+      "of",
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "record_date",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "record",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "status",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "purchase_date",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "purchase",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "phone_number",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "phone",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "qty_sold",
+    "sample_value": "1",
+    "label": "QUANTITY",
+    "tokens": [
+      "qty",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "acct_id",
+    "sample_value": "CUST-1234",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "acct",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "trans_date",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "trans",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "pieces",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "pieces"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "phone_no",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "phone",
+      "no"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "stage",
+    "sample_value": "inactive",
+    "label": "STATUS",
+    "tokens": [
+      "stage"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "cust_id",
+    "sample_value": "C001",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "division",
+    "sample_value": "Group 1",
+    "label": "CATEGORY",
+    "tokens": [
+      "division"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "total",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "total"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "category",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "email_id",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "id"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "contact_email",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "contact",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "email_address",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "address"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "mobile",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "mobile"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "zip",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "zip"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "total_amount",
+    "sample_value": "250.99",
+    "label": "REVENUE",
+    "tokens": [
+      "total",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "agent_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "agent",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "date",
+    "sample_value": "2023/01/15",
+    "label": "DATE",
+    "tokens": [
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE"
+    ]
+  },
+  {
+    "column_name": "client_id",
+    "sample_value": "10045",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "client",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "units_sold",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "units",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "postal_code",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "postal",
+      "code"
+    ],
+    "ner_tags": [
+      "B-LOCATION",
+      "I-LOCATION"
+    ]
+  },
+  {
+    "column_name": "article_code",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "article",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "client_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "client",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "catalog_id",
+    "sample_value": "PROD_99",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "catalog",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "price",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "price"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "agent_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "agent",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "email_address",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "address"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "email_address",
+    "sample_value": "user@domain.org",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "address"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "order_qty",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "order",
+      "qty"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "state",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "state"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "total_sales",
+    "sample_value": "3200.75",
+    "label": "REVENUE",
+    "tokens": [
+      "total",
+      "sales"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "postal_code",
+    "sample_value": "US",
+    "label": "LOCATION",
+    "tokens": [
+      "postal",
+      "code"
+    ],
+    "ner_tags": [
+      "B-LOCATION",
+      "I-LOCATION"
+    ]
+  },
+  {
+    "column_name": "phone_number",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "phone",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "gross_sales",
+    "sample_value": "3200.75",
+    "label": "REVENUE",
+    "tokens": [
+      "gross",
+      "sales"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "contact_phone",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "cust_code",
+    "sample_value": "CLI_9988",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "cust",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "account_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "account",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "first_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "first",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "first_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "first",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "sale_date",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "sale",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "qty",
+    "sample_value": "1",
+    "label": "QUANTITY",
+    "tokens": [
+      "qty"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "amount",
+    "sample_value": "10000",
+    "label": "REVENUE",
+    "tokens": [
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "quantity",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "department",
+    "sample_value": "Electronics",
+    "label": "CATEGORY",
+    "tokens": [
+      "department"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "person_name",
+    "sample_value": "Jane Doe",
+    "label": "NAME",
+    "tokens": [
+      "person",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "units",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "product_type",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "num_items",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "num",
+      "items"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "city",
+    "sample_value": "North Region",
+    "label": "LOCATION",
+    "tokens": [
+      "city"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "customer_code",
+    "sample_value": "CLI_9988",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "units",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "mail",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "mail"
+    ],
+    "ner_tags": [
+      "B-EMAIL"
+    ]
+  },
+  {
+    "column_name": "updated_at",
+    "sample_value": "2023-01-15",
+    "label": "DATE",
+    "tokens": [
+      "updated",
+      "at"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "sales_amount",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "sales",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "article_code",
+    "sample_value": "ART-5523",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "article",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "account_status",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "account",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "flag",
+    "sample_value": "1",
+    "label": "STATUS",
+    "tokens": [
+      "flag"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "article_code",
+    "sample_value": "ART-5523",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "article",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "order_status",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "order",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "trans_date",
+    "sample_value": "2023-01-15",
+    "label": "DATE",
+    "tokens": [
+      "trans",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "customer_code",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "type",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "purchase_date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "purchase",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "client_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "client",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "catalog_id",
+    "sample_value": "PROD_99",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "catalog",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "value",
+    "sample_value": "10000",
+    "label": "REVENUE",
+    "tokens": [
+      "value"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "item_category",
+    "sample_value": "Type A",
+    "label": "CATEGORY",
+    "tokens": [
+      "item",
+      "category"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "active",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "active"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "number_of_units",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "number",
+      "of",
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "quantity",
+    "sample_value": "1",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "customer_email",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "customer",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "ship_date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "ship",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "sale_dt",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "sale",
+      "dt"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "full_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "full",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "address",
+    "sample_value": "North Region",
+    "label": "LOCATION",
+    "tokens": [
+      "address"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "location",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "location"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "class",
+    "sample_value": "Electronics",
+    "label": "CATEGORY",
+    "tokens": [
+      "class"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "earnings",
+    "sample_value": "10000",
+    "label": "REVENUE",
+    "tokens": [
+      "earnings"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "updated_at",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "updated",
+      "at"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "division",
+    "sample_value": "Electronics",
+    "label": "CATEGORY",
+    "tokens": [
+      "division"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "date_of_purchase",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "date",
+      "of",
+      "purchase"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "enabled",
+    "sample_value": "true",
+    "label": "STATUS",
+    "tokens": [
+      "enabled"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "item_id",
+    "sample_value": "ITM-001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "item",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "value",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "value"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "zone",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "zone"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "classification",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "classification"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "created_at",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "created",
+      "at"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "item_code",
+    "sample_value": "SKU-4521",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "item",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "purchase_date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "purchase",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "first_name",
+    "sample_value": "Jane Doe",
+    "label": "NAME",
+    "tokens": [
+      "first",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "account_status",
+    "sample_value": "inactive",
+    "label": "STATUS",
+    "tokens": [
+      "account",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "product_type",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "type"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "article_id",
+    "sample_value": "PROD_99",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "article",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "value",
+    "sample_value": "3200.75",
+    "label": "REVENUE",
+    "tokens": [
+      "value"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "rep_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "rep",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "state",
+    "sample_value": "pending",
+    "label": "STATUS",
+    "tokens": [
+      "state"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "client_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "client",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "group",
+    "sample_value": "Type A",
+    "label": "CATEGORY",
+    "tokens": [
+      "group"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "client_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "client",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "ship_date",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "ship",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "fax",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "fax"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "email",
+    "sample_value": "user@domain.org",
+    "label": "EMAIL",
+    "tokens": [
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL"
+    ]
+  },
+  {
+    "column_name": "client_code",
+    "sample_value": "C001",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "client",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "order_status",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "order",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "phase",
+    "sample_value": "true",
+    "label": "STATUS",
+    "tokens": [
+      "phase"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "tel",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "tel"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "account_id",
+    "sample_value": "10045",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "account",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "catalog_id",
+    "sample_value": "SKU-4521",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "catalog",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "first_name",
+    "sample_value": "Jane Doe",
+    "label": "NAME",
+    "tokens": [
+      "first",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "city",
+    "sample_value": "90210",
+    "label": "LOCATION",
+    "tokens": [
+      "city"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "mobile_number",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "mobile",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "customer_email",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "customer",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "order_dt",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "order",
+      "dt"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "email_id",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "id"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "stage",
+    "sample_value": "active",
+    "label": "STATUS",
+    "tokens": [
+      "stage"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "tel",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "tel"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "telephone",
+    "sample_value": "9876543210",
+    "label": "PHONE",
+    "tokens": [
+      "telephone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "total_amount",
+    "sample_value": "3200.75",
+    "label": "REVENUE",
+    "tokens": [
+      "total",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "clientid",
+    "sample_value": "10045",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "clientid"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "customer_code",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "purchase_date",
+    "sample_value": "15-01-2023",
+    "label": "DATE",
+    "tokens": [
+      "purchase",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "account_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "account",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "date",
+    "sample_value": "2023/01/15",
+    "label": "DATE",
+    "tokens": [
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE"
+    ]
+  },
+  {
+    "column_name": "amount",
+    "sample_value": "10000",
+    "label": "REVENUE",
+    "tokens": [
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "qty",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "qty"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "department",
+    "sample_value": "Electronics",
+    "label": "CATEGORY",
+    "tokens": [
+      "department"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "product_code",
+    "sample_value": "ART-5523",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "email_id",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "id"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "active",
+    "sample_value": "inactive",
+    "label": "STATUS",
+    "tokens": [
+      "active"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "order_status",
+    "sample_value": "closed",
+    "label": "STATUS",
+    "tokens": [
+      "order",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "customer_code",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "contact_name",
+    "sample_value": "John Smith",
+    "label": "NAME",
+    "tokens": [
+      "contact",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "gross_sales",
+    "sample_value": "99.5",
+    "label": "REVENUE",
+    "tokens": [
+      "gross",
+      "sales"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "phone",
+    "sample_value": "+1-800-555-0199",
+    "label": "PHONE",
+    "tokens": [
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "division",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "division"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "purchase_date",
+    "sample_value": "01/15/2023",
+    "label": "DATE",
+    "tokens": [
+      "purchase",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "flag",
+    "sample_value": "inactive",
+    "label": "STATUS",
+    "tokens": [
+      "flag"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "transaction_amount",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "transaction",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "phone",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "state",
+    "sample_value": "California",
+    "label": "LOCATION",
+    "tokens": [
+      "state"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "order_value",
+    "sample_value": "250.99",
+    "label": "REVENUE",
+    "tokens": [
+      "order",
+      "value"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "email_id",
+    "sample_value": "contact@company.co",
+    "label": "EMAIL",
+    "tokens": [
+      "email",
+      "id"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "record_date",
+    "sample_value": "2023/01/15",
+    "label": "DATE",
+    "tokens": [
+      "record",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "client_email",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "client",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "is_active",
+    "sample_value": "1",
+    "label": "STATUS",
+    "tokens": [
+      "is",
+      "active"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "number_of_units",
+    "sample_value": "75",
+    "label": "QUANTITY",
+    "tokens": [
+      "number",
+      "of",
+      "units"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "first_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "first",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "pieces",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "pieces"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "volume",
+    "sample_value": "500",
+    "label": "QUANTITY",
+    "tokens": [
+      "volume"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "stock_id",
+    "sample_value": "PROD_99",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "stock",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "product_code",
+    "sample_value": "SKU-4521",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "product",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "rep_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "rep",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "article_code",
+    "sample_value": "SKU-4521",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "article",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "person_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "person",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "amount",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "customer_code",
+    "sample_value": "10045",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "contact_number",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "number"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "units_sold",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "units",
+      "sold"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "account_status",
+    "sample_value": "1",
+    "label": "STATUS",
+    "tokens": [
+      "account",
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS",
+      "I-STATUS"
+    ]
+  },
+  {
+    "column_name": "full_name",
+    "sample_value": "Bob Johnson",
+    "label": "NAME",
+    "tokens": [
+      "full",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "zone",
+    "sample_value": "US",
+    "label": "LOCATION",
+    "tokens": [
+      "zone"
+    ],
+    "ner_tags": [
+      "B-LOCATION"
+    ]
+  },
+  {
+    "column_name": "order_qty",
+    "sample_value": "75",
+    "label": "QUANTITY",
+    "tokens": [
+      "order",
+      "qty"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "state",
+    "sample_value": "pending",
+    "label": "STATUS",
+    "tokens": [
+      "state"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "article_code",
+    "sample_value": "SKU-4521",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "article",
+      "code"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "division",
+    "sample_value": "Segment B",
+    "label": "CATEGORY",
+    "tokens": [
+      "division"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "group",
+    "sample_value": "Group 1",
+    "label": "CATEGORY",
+    "tokens": [
+      "group"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "quantity",
+    "sample_value": "250",
+    "label": "QUANTITY",
+    "tokens": [
+      "quantity"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "fax",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "fax"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "product_group",
+    "sample_value": "Apparel",
+    "label": "CATEGORY",
+    "tokens": [
+      "product",
+      "group"
+    ],
+    "ner_tags": [
+      "B-CATEGORY",
+      "I-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "pieces",
+    "sample_value": "10",
+    "label": "QUANTITY",
+    "tokens": [
+      "pieces"
+    ],
+    "ner_tags": [
+      "B-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "status",
+    "sample_value": "closed",
+    "label": "STATUS",
+    "tokens": [
+      "status"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "account_id",
+    "sample_value": "A-00231",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "account",
+      "id"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "income",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "income"
+    ],
+    "ner_tags": [
+      "B-REVENUE"
+    ]
+  },
+  {
+    "column_name": "contact_email",
+    "sample_value": "user@domain.org",
+    "label": "EMAIL",
+    "tokens": [
+      "contact",
+      "email"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "cell",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "cell"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "telephone",
+    "sample_value": "555-1234",
+    "label": "PHONE",
+    "tokens": [
+      "telephone"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "catalog_id",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "catalog",
+      "id"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  },
+  {
+    "column_name": "sale_date",
+    "sample_value": "2023/01/15",
+    "label": "DATE",
+    "tokens": [
+      "sale",
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE",
+      "I-DATE"
+    ]
+  },
+  {
+    "column_name": "date",
+    "sample_value": "Jan 15 2023",
+    "label": "DATE",
+    "tokens": [
+      "date"
+    ],
+    "ner_tags": [
+      "B-DATE"
+    ]
+  },
+  {
+    "column_name": "contact_phone",
+    "sample_value": "9876543210",
+    "label": "PHONE",
+    "tokens": [
+      "contact",
+      "phone"
+    ],
+    "ner_tags": [
+      "B-PHONE",
+      "I-PHONE"
+    ]
+  },
+  {
+    "column_name": "e_mail",
+    "sample_value": "john@example.com",
+    "label": "EMAIL",
+    "tokens": [
+      "e",
+      "mail"
+    ],
+    "ner_tags": [
+      "B-EMAIL",
+      "I-EMAIL"
+    ]
+  },
+  {
+    "column_name": "num_items",
+    "sample_value": "75",
+    "label": "QUANTITY",
+    "tokens": [
+      "num",
+      "items"
+    ],
+    "ner_tags": [
+      "B-QUANTITY",
+      "I-QUANTITY"
+    ]
+  },
+  {
+    "column_name": "condition",
+    "sample_value": "closed",
+    "label": "STATUS",
+    "tokens": [
+      "condition"
+    ],
+    "ner_tags": [
+      "B-STATUS"
+    ]
+  },
+  {
+    "column_name": "rep_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "rep",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "account_name",
+    "sample_value": "Acme Corp",
+    "label": "NAME",
+    "tokens": [
+      "account",
+      "name"
+    ],
+    "ner_tags": [
+      "B-NAME",
+      "I-NAME"
+    ]
+  },
+  {
+    "column_name": "client_number",
+    "sample_value": "CLI_9988",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "client",
+      "number"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "net_sales",
+    "sample_value": "10000",
+    "label": "REVENUE",
+    "tokens": [
+      "net",
+      "sales"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "sales_amount",
+    "sample_value": "1500.00",
+    "label": "REVENUE",
+    "tokens": [
+      "sales",
+      "amount"
+    ],
+    "ner_tags": [
+      "B-REVENUE",
+      "I-REVENUE"
+    ]
+  },
+  {
+    "column_name": "tel",
+    "sample_value": "(555) 123-4567",
+    "label": "PHONE",
+    "tokens": [
+      "tel"
+    ],
+    "ner_tags": [
+      "B-PHONE"
+    ]
+  },
+  {
+    "column_name": "division",
+    "sample_value": "Type A",
+    "label": "CATEGORY",
+    "tokens": [
+      "division"
+    ],
+    "ner_tags": [
+      "B-CATEGORY"
+    ]
+  },
+  {
+    "column_name": "customer_code",
+    "sample_value": "CUST-1234",
+    "label": "CUSTOMER_ID",
+    "tokens": [
+      "customer",
+      "code"
+    ],
+    "ner_tags": [
+      "B-CUSTOMER_ID",
+      "I-CUSTOMER_ID"
+    ]
+  },
+  {
+    "column_name": "prod_no",
+    "sample_value": "P001",
+    "label": "PRODUCT_ID",
+    "tokens": [
+      "prod",
+      "no"
+    ],
+    "ner_tags": [
+      "B-PRODUCT_ID",
+      "I-PRODUCT_ID"
+    ]
+  }
+]

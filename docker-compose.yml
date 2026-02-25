@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  schema-mapping-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - CONFIDENCE_THRESHOLD=0.85
+    volumes:
+      - ./logs:/app/logs
+      - ./models:/app/models
+    restart: unless-stopped
+
+  mlflow:
+    image: python:3.11-slim
+    working_dir: /app
+    command: >
+      bash -c "pip install mlflow && mlflow ui --host 0.0.0.0 --port 5000 --backend-store-uri /app/mlruns"
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/app/mlruns
+    restart: unless-stopped
