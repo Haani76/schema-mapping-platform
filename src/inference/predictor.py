@@ -29,9 +29,17 @@ class SchemaPredictor:
         print(f"Confidence threshold: {self.confidence_threshold}")
 
     def _load_model(self):
-        """Load the trained model from disk."""
+        """Load the trained model from disk or HuggingFace Hub."""
+        from transformers import BertConfig
+        bert_config = BertConfig.from_pretrained(
+            self.model_path,
+            num_labels=config.NUM_LABELS,
+            id2label=config.ID2LABEL,
+            label2id=config.LABEL2ID,
+        )
         model = BertNERModel.from_pretrained(
             self.model_path,
+            config=bert_config,
             ignore_mismatched_sizes=True,
         )
         model.to(self.device)
