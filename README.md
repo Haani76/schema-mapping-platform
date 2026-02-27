@@ -1,5 +1,10 @@
 # Schema Mapping Platform
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red)](https://schema-mapping-platform-apbvzvujnb8gthfwdiuf63.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-black?logo=github)](https://github.com/Haani76/schema-mapping-platform)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-yellow)](https://huggingface.co/Haani76/schema-mapping-ner)
+
+
 ## What is this project?
 
 Imagine your company receives data files from hundreds of different customers. Each customer names their spreadsheet columns differently — one calls it `cust_id`, another calls it `client_code`, another calls it `account_number`. They all mean the same thing: a unique identifier for a customer. But your system doesn't know that automatically.
