@@ -14,7 +14,14 @@ class SchemaPredictor:
 
     def __init__(self, model_path: str = None, device=None):
         self.device = device or torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.model_path = model_path or os.path.join(config.BASE_DIR, "models", "best_model")
+        # Use HuggingFace Hub model if local model doesn't exist
+        local_path = os.path.join(config.BASE_DIR, "models", "best_model")
+        if model_path:
+            self.model_path = model_path
+        elif os.path.exists(local_path):
+            self.model_path = local_path
+        else:
+            self.model_path = "Haani76/schema-mapping-ner"
         self.tokenizer = BertTokenizerFast.from_pretrained(config.MODEL_NAME)
         self.model = self._load_model()
         self.confidence_threshold = config.CONFIDENCE_THRESHOLD
