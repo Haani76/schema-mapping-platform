@@ -16,9 +16,10 @@ class SchemaPredictor:
         self.device = device or torch.device("cuda" if torch.cuda.is_available() else "cpu")
         # Use HuggingFace Hub model if local model doesn't exist
         local_path = os.path.join(config.BASE_DIR, "models", "best_model")
+        local_weights = os.path.join(local_path, "model.safetensors")
         if model_path:
             self.model_path = model_path
-        elif os.path.exists(local_path):
+        elif os.path.exists(local_weights):
             self.model_path = local_path
         else:
             self.model_path = "Haani76/schema-mapping-ner"
