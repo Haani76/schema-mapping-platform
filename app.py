@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import json
 import sys
 import os
 
@@ -12,7 +11,7 @@ from configs.config import config
 # Page config
 st.set_page_config(
     page_title="Schema Mapping Platform",
-    page_icon="🧠",
+    page_icon=None,
     layout="wide",
 )
 
@@ -22,14 +21,14 @@ def load_predictor():
     return SchemaPredictor()
 
 # Header
-st.title("🧠 Schema Mapping Platform")
+st.title("Schema Mapping Platform")
 st.markdown("**AI-powered semantic column inference using BERT NER**")
 st.markdown("Upload a CSV or enter column names manually to automatically map them to canonical schema types.")
 st.divider()
 
 # Sidebar
 with st.sidebar:
-    st.header("⚙️ Settings")
+    st.header("Settings")
     threshold = st.slider(
         "Confidence Threshold",
         min_value=0.50,
@@ -39,22 +38,22 @@ with st.sidebar:
         help="Predictions above this threshold are auto-mapped. Below goes to human review."
     )
     st.divider()
-    st.header("📊 Supported Labels")
+    st.header("Supported Labels")
     labels = [l.replace("B-", "") for l in config.LABELS if l != "O"]
     for label in labels:
         st.markdown(f"- `{label}`")
     st.divider()
-    st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-View_Source-black?logo=github)](https://github.com/Haani76/schema-mapping-platform)")
+    st.markdown("[View Source on GitHub](https://github.com/Haani76/schema-mapping-platform)")
 
 # Load predictor
 with st.spinner("Loading BERT model..."):
     predictor = load_predictor()
     predictor.confidence_threshold = threshold
 
-st.success("Model loaded and ready!")
+st.success("Model loaded and ready.")
 
 # Tabs
-tab1, tab2, tab3 = st.tabs(["📁 Upload CSV", "✏️ Manual Input", "📖 About"])
+tab1, tab2, tab3 = st.tabs(["Upload CSV", "Manual Input", "About"])
 
 # --- Tab 1: CSV Upload ---
 with tab1:
@@ -71,11 +70,10 @@ with tab1:
         columns = list(df.columns)
         st.markdown(f"**Detected {len(columns)} columns:** {', '.join(columns)}")
 
-        if st.button("🚀 Run Schema Mapping", key="csv_btn"):
+        if st.button("Run Schema Mapping", key="csv_btn"):
             with st.spinner("Running inference..."):
                 results = predictor.predict_dataframe_columns(columns)
 
-            # Summary metrics
             col1, col2, col3, col4 = st.columns(4)
             col1.metric("Total Columns", results["total_columns"])
             col2.metric("Auto Mapped", results["auto_mapped_count"])
@@ -84,9 +82,8 @@ with tab1:
 
             st.divider()
 
-            # Auto mapped results
             if results["auto_mapped"]:
-                st.subheader("✅ Auto Mapped")
+                st.subheader("Auto Mapped")
                 auto_df = pd.DataFrame([{
                     "Column": p["column_name"],
                     "Predicted Label": p["predicted_label"],
@@ -95,9 +92,8 @@ with tab1:
                 } for p in results["auto_mapped"]])
                 st.dataframe(auto_df, use_container_width=True)
 
-            # Needs review
             if results["needs_review"]:
-                st.subheader("⚠️ Needs Human Review")
+                st.subheader("Needs Human Review")
                 review_df = pd.DataFrame([{
                     "Column": p["column_name"],
                     "Predicted Label": p["predicted_label"],
@@ -106,7 +102,6 @@ with tab1:
                 } for p in results["needs_review"]])
                 st.dataframe(review_df, use_container_width=True)
 
-            # Download results
             all_results = results["auto_mapped"] + results["needs_review"]
             results_df = pd.DataFrame([{
                 "column_name": p["column_name"],
@@ -116,7 +111,7 @@ with tab1:
             } for p in all_results])
 
             st.download_button(
-                label="📥 Download Results as CSV",
+                label="Download Results as CSV",
                 data=results_df.to_csv(index=False),
                 file_name="schema_mapping_results.csv",
                 mime="text/csv",
@@ -134,7 +129,7 @@ with tab2:
         height=200,
     )
 
-    if st.button("🚀 Run Schema Mapping", key="manual_btn"):
+    if st.button("Run Schema Mapping", key="manual_btn"):
         lines = [l.strip() for l in user_input.strip().split("\n") if l.strip()]
         columns_input = []
         for line in lines:
@@ -148,7 +143,6 @@ with tab2:
                 [c["column_name"] for c in columns_input]
             )
 
-        # Summary metrics
         col1, col2, col3, col4 = st.columns(4)
         col1.metric("Total Columns", results["total_columns"])
         col2.metric("Auto Mapped", results["auto_mapped_count"])
@@ -157,12 +151,11 @@ with tab2:
 
         st.divider()
 
-        # Detailed results
-        st.subheader("📋 Detailed Results")
+        st.subheader("Detailed Results")
         all_preds = results["auto_mapped"] + results["needs_review"]
         for pred in all_preds:
-            routing_icon = "✅" if pred["routing"] == "auto_map" else "⚠️"
-            with st.expander(f"{routing_icon} {pred['column_name']} → {pred['predicted_label']} ({pred['confidence']*100:.1f}%)"):
+            routing_label = "Auto Mapped" if pred["routing"] == "auto_map" else "Needs Review"
+            with st.expander(f"{pred['column_name']} → {pred['predicted_label']} ({pred['confidence']*100:.1f}%) — {routing_label}"):
                 st.markdown(f"**Predicted Label:** `{pred['predicted_label']}`")
                 st.markdown(f"**Confidence:** `{pred['confidence']*100:.1f}%`")
                 st.markdown(f"**Routing:** `{pred['routing']}`")
@@ -203,9 +196,11 @@ with tab3:
     - **Containerization:** Docker
 
     ### Supported Semantic Types
-    `CUSTOMER_ID` • `PRODUCT_ID` • `REVENUE` • `DATE` • `QUANTITY` •
-    `LOCATION` • `EMAIL` • `PHONE` • `NAME` • `STATUS` • `CATEGORY`
+    `CUSTOMER_ID` `PRODUCT_ID` `REVENUE` `DATE` `QUANTITY`
+    `LOCATION` `EMAIL` `PHONE` `NAME` `STATUS` `CATEGORY`
 
-    ### Source Code
-    [github.com/Haani76/schema-mapping-platform](https://github.com/Haani76/schema-mapping-platform)
+    ### Links
+    - [GitHub Repository](https://github.com/Haani76/schema-mapping-platform)
+    - [Live Demo](https://schema-mapping-platform-apbvzvujnb8gthfwdiuf63.streamlit.app/)
+    - [Model on HuggingFace](https://huggingface.co/Haani76/schema-mapping-ner)
     """)
